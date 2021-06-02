@@ -4,7 +4,7 @@ import React from 'react'
 import './listEvent.css'
 function ListEvent() {
 
-    const aziende = require('../../assets/azienda.json');
+    //const aziende = require('../../assets/azienda.json');
     return (
         <div className='listEvent periodic'>
             <div>
