@@ -6,13 +6,13 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Switch exact>
-          <Route path='/calendar'>
+        <Switch>
+          <Route exact path='/'>
             <Calendar />
           </Route>
           <Route path='*'>
             <h1> errore: nessuna pagina disponibile a questo indirizzo</h1>
-            <Link to='/calendar'>Torna all'app</Link>
+            <Link to='/'>Torna all'app</Link>
           </Route>
         </Switch>
       </Router>
