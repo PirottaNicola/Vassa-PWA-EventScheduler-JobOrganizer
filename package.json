@@ -1,5 +1,6 @@
 {
   "name": "pwa",
+  "homepage": "https://focused-brattain-ba7630.netlify.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
