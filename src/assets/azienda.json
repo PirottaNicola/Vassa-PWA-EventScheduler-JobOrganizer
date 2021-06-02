@@ -1,0 +1,102 @@
+{
+  "aziende": [
+    {
+      "id": "id numerico UNIVOCO",
+      "nome_azienda": "cazzari spa",
+      "contatti": [
+        {
+          "nome": "matteo",
+          "cognome": "vassalli",
+          "numero": 334243424
+        },
+        {
+          "nome": "bonzo",
+          "cognome": "crauti",
+          "numero": 31212424
+        }
+      ],
+      "zona": "id zona",
+      "past_interactions": [
+        {
+          "interaction": {
+            "date": "date",
+            "type": "selling",
+            "items": "fresa magica",
+            "price": 324.89
+          }
+        }
+      ],
+      "future_events": [
+        {
+          "date": "date",
+          "notes": "notes about the event"
+        },
+        {
+          "date": "date",
+          "notes": "notes about the event"
+        }
+      ],
+      "cyclical_events": [
+        {
+          "interval": "time interval between two events",
+          "notes": "notes about the event"
+        }
+      ],
+      "ToDo": [
+        {
+          "deadLine": "data",
+          "notes": "notes about the event"
+        }
+      ]
+    },
+    {
+      "id": "id numerico UNIVOCO",
+      "nome_azienda": "cazzari spa",
+      "contatti": [
+        {
+          "nome": "matteo",
+          "cognome": "vassalli",
+          "numero": 334243424
+        },
+        {
+          "nome": "bonzo",
+          "cognome": "crauti",
+          "numero": 31212424
+        }
+      ],
+      "zona": "id zona",
+      "past_interactions": [
+        {
+          "interaction": {
+            "date": "date",
+            "type": "selling",
+            "items": "fresa magica",
+            "price": 324.89
+          }
+        }
+      ],
+      "future_events": [
+        {
+          "date": "date",
+          "notes": "notes about the event"
+        },
+        {
+          "date": "date",
+          "notes": "notes about the event"
+        }
+      ],
+      "cyclical_events": [
+        {
+          "interval": "time interval between two events",
+          "notes": "notes about the event"
+        }
+      ],
+      "ToDo": [
+        {
+          "deadLine": "data",
+          "notes": "notes about the event"
+        }
+      ]
+    }
+  ]
+}

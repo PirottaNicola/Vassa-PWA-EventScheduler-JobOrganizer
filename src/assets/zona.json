@@ -1,0 +1,40 @@
+{
+  "zona": [
+    {
+      "nome": "trevigliese",
+      "paesi": ["paese1", "paese2", "paese3"],
+      "clienti": ["id azienda1", "id azienda2"],
+      "colore": "#d0eft9"
+    },
+    {
+      "nome": "bergamasca",
+      "paesi": ["paese1", "paese2", "paese3"],
+      "clienti": ["id azienda1", "id azienda2"],
+      "colore": "#b3d89c"
+    },
+    {
+      "nome": "milanese",
+      "paesi": ["paese1", "paese2", "paese3"],
+      "clienti": ["id azienda1", "id azienda2"],
+      "colore": "#9dc3c2"
+    },
+    {
+      "nome": "trezzese",
+      "paesi": ["paese1", "paese2", "paese3"],
+      "clienti": ["id azienda1", "id azienda2"],
+      "colore": "#77a6b6"
+    },
+    {
+      "nome": "africana",
+      "paesi": ["paese1", "paese2", "paese3"],
+      "clienti": ["id azienda1", "id azienda2"],
+      "colore": "#7999b9"
+    },
+    {
+      "nome": "vichinga",
+      "paesi": ["paese1", "paese2", "paese3"],
+      "clienti": ["id azienda1", "id azienda2"],
+      "colore": "#d0efb1"
+    }
+  ]
+}

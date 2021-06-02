@@ -1,0 +1,9 @@
+.eventList {
+  background-color: var(--light-bkg);
+  position: absolute;
+  top: 57vh;
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  padding: 1rem 0 1rem 0;
+}

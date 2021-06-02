@@ -1,0 +1,36 @@
+.listEvent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: fit-content;
+  background-color: var(--light-el);
+  border-bottom-right-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  margin: 1rem 0 1rem 0;
+  scroll-behavior: smooth;
+}
+
+.listEvent.periodic {
+  margin: 1rem 0 1rem 0;
+  border-right: solid 10px rgb(136, 214, 181);
+}
+
+.listEvent div {
+  margin: 0.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.listEvent div > h3,
+.listEvent div > h4 {
+  margin: 0;
+  color: var(--light-text1);
+}
+
+.listEvent > h2 {
+  margin-right: 1em;
+  color: var(--light-text2);
+}
