@@ -1,6 +1,6 @@
 import React from 'react'
 import ListEvent from '../Calendar/ListEvent'
-import './eventList.css'
+import '../Calendar/eventList.css'
 
 function EventList() {
     return (
