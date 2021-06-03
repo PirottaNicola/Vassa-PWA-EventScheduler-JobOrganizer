@@ -1,0 +1,9 @@
+.eventList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  overflow-y: scroll;
+  background: #303e41;
+  box-shadow: inset 5px 5px 10px #222b2e, inset -5px -5px 10px #3e5155;
+}
