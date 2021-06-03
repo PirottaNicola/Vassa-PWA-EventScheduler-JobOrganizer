@@ -1,12 +1,13 @@
 import React from 'react'
-//components
-import ListEvent from './ListEvent'
-//stylesheet
-import './EventList.css'
+import ListEvent from '../Calendar/ListEvent'
+import './eventList.css'
 
 function EventList() {
     return (
         <div className='eventList'>
+            <ListEvent />
+            <ListEvent />
+            <ListEvent />
             <ListEvent />
             <ListEvent />
             <ListEvent />
