@@ -4,7 +4,7 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  width: 0.9;
   height: fit-content;
   background-color: var(--light-el);
   border-bottom-right-radius: 0.5rem;
