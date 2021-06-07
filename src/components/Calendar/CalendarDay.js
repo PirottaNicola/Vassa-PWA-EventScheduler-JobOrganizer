@@ -8,7 +8,8 @@ import './calendarDay.css'
 
 function CalendarDay(props) {
 
-    const todayZoneName = props.zone; //da qui proviene la zona assgnata al giorno
+    const todayZoneName = props.day.zone; //da qui proviene la zona assgnata al giorno
+    console.log(todayZoneName)
 
     const zone = require('../../assets/zona.json'); //da qui provengono i vari dati legati alla zona scelta
     //assegno colore alla giornata in base alla zona

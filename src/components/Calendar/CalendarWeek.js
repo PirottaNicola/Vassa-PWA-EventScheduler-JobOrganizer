@@ -22,43 +22,69 @@ function CalendarWeek() {
     //numero giorno
     const DayNumber = ((daysToAdd) => getDate(addDays(today, daysToAdd)))
 
+    //get nome zona from days.json mongoDB: GET Day where Date ==
+    const todayZone = () => { }
+    const todayEvents = () => { }
+
+
     //lista giorni presenti a schermo
     const weekDays = {
         "days": [
             {
-                "date": today,
+                "currentDate": today,
+                "todayDate": `${addDays(today, 0)}`,
                 "dayName": `${day1}`,
-                "dayNumber": `${DayNumber(0)}`
+                "dayNumber": `${DayNumber(0)}`,
+                "zone": `${todayZone}`,
+                "events": `${todayEvents}`
             },
             {
-                "date": today,
+                "currentDate": today,
+                "todayDate": `${addDays(today, 0)}`,
                 "dayName": `${day2}`,
-                "dayNumber": `${DayNumber(1)}`
+                "dayNumber": `${DayNumber(1)}`,
+                "zone": `${todayZone}`,
+                "events": `${todayEvents}`
             },
             {
-                "date": today,
+                "currentDate": today,
+                "todayDate": `${addDays(today, 0)}`,
                 "dayName": `${day3}`,
-                "dayNumber": `${DayNumber(2)}`
+                "dayNumber": `${DayNumber(2)}`,
+                "zone": `${todayZone}`,
+                "events": `${todayEvents}`
             },
             {
-                "date": today,
+                "currentDate": today,
+                "todayDate": `${addDays(today, 0)}`,
                 "dayName": `${day4}`,
-                "dayNumber": `${DayNumber(3)}`
+                "dayNumber": `${DayNumber(3)}`,
+                "zone": `${todayZone}`,
+                "events": `${todayEvents}`
             },
             {
-                "date": today,
+                "currentDate": today,
+                "todayDate": `${addDays(today, 0)}`,
                 "dayName": `${day5}`,
-                "dayNumber": `${DayNumber(4)}`
+                "dayNumber": `${DayNumber(4)}`,
+                "zone": `${todayZone}`,
+                "events": `${todayEvents}`
             },
             {
-                "date": today,
+                "currentDate": today,
+                "todayDate": `${addDays(today, 0)}`,
                 "dayName": `${day6}`,
-                "dayNumber": `${DayNumber(5)}`
+                "dayNumber": `${DayNumber(5)}`,
+                "zone": `${todayZone}`,
+                "events": `${todayEvents}`
             },
             {
-                "date": today,
+                "currentDate": today,
+                "todayDate": `${addDays(today, 0)}`,
                 "dayName": `${day7}`,
-                "dayNumber": `${DayNumber(6)}`
+                "dayNumber": `${DayNumber(6)}`,
+                "zone": `${todayZone}`,
+                "events": `${todayEvents}`
             },
         ]
     }

@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: stretch;
   height: 100%;
-  width: calc(100vw / 6);
+  width: calc(100vw / 8);
   overflow-y: scroll;
 }
 
@@ -29,4 +29,11 @@
 .calendarDay > .date > h3,
 .calendarDay > .date > h4 {
   margin: 0.2rem;
+}
+
+.calendarDay:first-of-type,
+.calendarDay:first-of-type > .date,
+.calendarDay:first-of-type > .calendarEvent {
+  flex-grow: 2;
+  width: calc(100vw / 5);
 }
