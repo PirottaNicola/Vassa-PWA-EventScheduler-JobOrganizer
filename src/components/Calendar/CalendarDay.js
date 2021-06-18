@@ -34,7 +34,7 @@ function CalendarDay(props) {
             <CalendarEvent />
             <CalendarEvent />
             <CalendarEvent />
-            <div className='space'></div>
+            <div className='space'><br /><br /><br /></div>
         </div>
     )
 }
