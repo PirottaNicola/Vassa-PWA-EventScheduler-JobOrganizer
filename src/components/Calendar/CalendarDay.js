@@ -22,7 +22,7 @@ function CalendarDay(props) {
                 <h3>{props.day.dayName}</h3>
                 <h4>{props.day.dayNumber}</h4>
             </div>
-            <div className='space'><br /><br /><br /></div>
+            <div className='space'><br /></div>
             <CalendarEvent />
             <CalendarEvent />
             <CalendarEvent />
@@ -34,7 +34,7 @@ function CalendarDay(props) {
             <CalendarEvent />
             <CalendarEvent />
             <CalendarEvent />
-            <div className='space'><br /><br /></div>
+            <div className='space'></div>
         </div>
     )
 }

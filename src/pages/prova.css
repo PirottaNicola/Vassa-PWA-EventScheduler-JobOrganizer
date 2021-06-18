@@ -1,0 +1,15 @@
+.prova {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.prova > div {
+  display: flex;
+  margin: 4rem;
+  border: solid black 1rem;
+}
+
+.assoluti {
+  position: absolute;
+}
